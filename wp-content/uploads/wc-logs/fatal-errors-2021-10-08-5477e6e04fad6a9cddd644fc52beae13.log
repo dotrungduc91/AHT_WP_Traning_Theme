@@ -1,0 +1,29 @@
+2021-10-08T06:30:30+00:00 CRITICAL Cannot redeclare create_banner_widget() (previously declared in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\banner_gymax_widget.php:13) in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\strength_gymax_widget.php on line 12
+
+2021-10-08T06:30:32+00:00 CRITICAL Cannot redeclare create_banner_widget() (previously declared in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\banner_gymax_widget.php:13) in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\strength_gymax_widget.php on line 12
+
+2021-10-08T06:30:32+00:00 CRITICAL Cannot redeclare create_banner_widget() (previously declared in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\banner_gymax_widget.php:13) in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\strength_gymax_widget.php on line 12
+
+2021-10-08T06:30:40+00:00 CRITICAL Cannot redeclare create_banner_widget() (previously declared in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\banner_gymax_widget.php:13) in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\strength_gymax_widget.php on line 12
+
+2021-10-08T06:30:43+00:00 CRITICAL Cannot redeclare create_banner_widget() (previously declared in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\banner_gymax_widget.php:13) in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\strength_gymax_widget.php on line 12
+
+2021-10-08T06:30:43+00:00 CRITICAL Cannot redeclare create_banner_widget() (previously declared in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\banner_gymax_widget.php:13) in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\strength_gymax_widget.php on line 12
+
+2021-10-08T08:29:10+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "thachpham_meta_box" not found or invalid function name in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\includes\meta-boxes.php(1578): do_action('add_meta_boxes', 'post', Object(WP_Post))
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\edit-form-advanced.php(271): register_and_do_post_meta_boxes(Object(WP_Post))
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\post-new.php(75): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php on line 305
+
+2021-10-08T08:41:53+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($function) must be a valid callback, function "trungduc_thongtin_output" not found or invalid function name in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\includes\template.php:1395
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\edit-form-advanced.php(711): do_meta_boxes(Object(WP_Screen), 'advanced', Object(WP_Post))
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\includes\template.php on line 1395
+

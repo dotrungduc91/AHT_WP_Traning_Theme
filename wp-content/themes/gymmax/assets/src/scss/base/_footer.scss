@@ -1,0 +1,79 @@
+.footer {
+    margin-top: 25px;
+    background-color: #222222;
+    .social-media {
+        text-align: center;
+        padding-top: 100px;
+        .content {
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+            .content-inner {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #777777;
+                text-align: center;
+                width: 65%;
+            }
+        }
+        .media-icon {
+            font-size: 18px;
+            text-align: center;
+            margin-top: 38px;
+             padding-bottom: 54px;
+            border-bottom: 1px solid #777777;
+            ul {
+                display: flex;
+                justify-content: center;
+                li:first-child {
+                    margin-left: 8px;
+                }
+                li {
+                    a {
+                        color: #777777;
+                        padding: 0px 22px;
+                    }
+                }
+            }
+        }
+    }
+    .information {
+        padding-top: 55px;
+        .information-item {
+            @include col(25%);
+            text-align: left;
+            .information-title {
+                font-size: 18px;
+                font-weight: 700;
+                color: $white-text-color;
+                text-transform: uppercase;
+                padding-bottom: 19px;
+            }
+            .information-content {
+                ul {
+                    li {
+                        a {
+                            font-size: 14px;
+                            font-weight: 400;
+                            color: #777777;
+                            line-height: 40px;
+                            i {
+                                padding-right: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .copy-right {
+        background-color: #111111;
+        color: #777777;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 14px 0;
+        margin-top: 24px;
+    }
+}

@@ -1,0 +1,105 @@
+.header {
+    background-color: rgba(0,0,0,0.6);
+    font-size: 16px;
+    font-weight: 400;
+    color: $white-text-color;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+
+    #mega-menu-gymmax-header-menu {
+        background-color: rgba(0,0,0,0.6);
+    }
+
+    .logo-mobile {
+        display: none;
+        img {
+            display: block;
+        }
+    }
+
+    &-inner {
+        height: 100px;
+        @include flex;
+        .logo {
+            margin-top: 7px;
+            img {
+                width: 100%;
+            }
+        }
+        .nav-bar {
+            margin-top: 4px;
+            flex: 1;
+            .nav-icon {
+                display: none;
+            }
+            .menu-total {
+                display: flex;
+                justify-content: center;
+                .menu {
+                    display: flex;
+                    .title {
+                        display: none;
+                    }
+                        
+                    &-item {
+                        padding-right: 26px;
+                        padding-left: 26px;
+                        a {
+                            color: $white-text-color;
+                            &:hover {
+                                color : #dd2f31;
+                            }
+                        }
+                    }
+                }
+                .cover {
+                    display: none;
+                }    
+            }
+        }
+        .menu-icon {
+            margin-top: 9px;
+            display: flex;
+
+            .search-icon {
+                padding-left: 41px;
+                a {
+                    i {
+                    padding-right: 25px;
+                    color: $white-text-color;
+                    }
+                }
+            }
+            
+            .cart-icon {
+                a {
+                    i {
+                        border-right: 1px solid #808080;
+                        border-left: 1px solid #808080;
+                        padding-right: 29px;
+                        padding-left: 26px;
+                        color: $white-text-color;
+                    }
+                }
+            }
+
+            .user-icon {
+                a {
+                    i {
+                      padding-left: 26px;
+                      color: $white-text-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+

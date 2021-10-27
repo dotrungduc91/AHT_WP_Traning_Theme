@@ -1,0 +1,50 @@
+2021-10-07T04:07:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "banner_widget_area_init" not found or invalid function name in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\widgets.php(1809): do_action('widgets_init')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php(303): wp_widgets_init('')
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-settings.php(578): do_action('init')
+#7 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php on line 303
+
+2021-10-07T04:08:32+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "banner_widget_area_init" not found or invalid function name in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\widgets.php(1809): do_action('widgets_init')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php(303): wp_widgets_init('')
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-settings.php(578): do_action('init')
+#7 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php on line 303
+
+2021-10-07T07:52:49+00:00 CRITICAL Uncaught TypeError: extract(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\banner_gymax_widget.php:92
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\banner_gymax_widget.php(92): extract(NULL)
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-widget.php(393): Banner_Widget->widget(Array, Array)
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\widgets.php(831): WP_Widget->display_callback(Array, Array)
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php(425): dynamic_sidebar('banner_widget_a...')
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\banner_gymax_widget.php on line 92
+
+2021-10-07T14:45:13+00:00 CRITICAL Cannot redeclare create_banner_widget() (previously declared in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\banner_gymax_widget.php:13) in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\strength_gymax_widget.php on line 12
+
+2021-10-07T14:45:16+00:00 CRITICAL Cannot redeclare create_banner_widget() (previously declared in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\banner_gymax_widget.php:13) in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\strength_gymax_widget.php on line 12
+
+2021-10-07T14:45:16+00:00 CRITICAL Cannot redeclare create_banner_widget() (previously declared in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\banner_gymax_widget.php:13) in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\strength_gymax_widget.php on line 12
+

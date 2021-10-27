@@ -1,0 +1,64 @@
+2021-10-11T07:58:16+00:00 CRITICAL Cannot redeclare trungduc_thongtin_output() (previously declared in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\trungduc_metabox.php:22) in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\slick_metabox.php on line 22
+
+2021-10-11T07:58:20+00:00 CRITICAL Cannot redeclare trungduc_thongtin_output() (previously declared in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\trungduc_metabox.php:22) in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\slick_metabox.php on line 22
+
+2021-10-11T07:58:20+00:00 CRITICAL Cannot redeclare trungduc_thongtin_output() (previously declared in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\trungduc_metabox.php:22) in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\slick_metabox.php on line 22
+
+2021-10-11T09:17:14+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_meta_box(), 1 passed in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\trungduc_metabox.php on line 15 and at least 3 expected in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\includes\template.php:1029
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\trungduc_metabox.php(15): add_meta_box(Array)
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php(305): trungduc_meta_box('post')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\includes\meta-boxes.php(1578): do_action('add_meta_boxes', 'post', Object(WP_Post))
+#5 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\edit-form-advanced.php(271): register_and_do_post_meta_boxes(Object(WP_Post))
+#6 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\includes\template.php on line 1029
+
+2021-10-11T09:18:24+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_meta_box(), 1 passed in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\trungduc_metabox.php on line 15 and at least 3 expected in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\includes\template.php:1029
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\trungduc_metabox.php(15): add_meta_box(Array)
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php(305): trungduc_meta_box('post')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\includes\meta-boxes.php(1578): do_action('add_meta_boxes', 'post', Object(WP_Post))
+#5 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\edit-form-advanced.php(271): register_and_do_post_meta_boxes(Object(WP_Post))
+#6 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\includes\template.php on line 1029
+
+2021-10-11T13:42:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\inc\template-functions.php on line 27
+
+2021-10-11T14:19:12+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php:214
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php on line 214
+
+2021-10-11T14:19:37+00:00 CRITICAL Uncaught Error: Call to a member function the_post() on null in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php:215
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php on line 215
+
+2021-10-11T15:09:14+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php:124
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php on line 124
+
+2021-10-11T15:13:12+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php:124
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php on line 124
+

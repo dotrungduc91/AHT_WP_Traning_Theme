@@ -1,0 +1,281 @@
+
+@media all and (max-width: 1170px) {
+    .page-main {
+        .brand {
+            .brand-item {
+                @include col(50%);
+            }
+        } 
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .header {
+        &-inner {
+            height: 80px;
+            .nav-bar {
+                .menu-total {
+                    .menu {
+                        &-item {
+                            padding-right: 5px;
+                            padding-left: 5px;
+                        }
+                    }
+                }
+            }
+            .menu-icon {
+                .search-icon {
+                    padding-left: 0px;
+                    i {
+                        padding-right: 10px;
+                    }
+                }
+
+                .cart-icon {
+                    i {
+                        padding: 0 10px;
+                    }
+                }
+                .user-icon {
+                    i {
+                    padding-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .page-main {
+        .strength {
+            &-inner {
+                .icon-item {
+                    .icon {
+                        width: 40px;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .title {
+                        font-size: 14px;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                    }
+                    .content {
+                        font-size: 12px;
+                        line-height: 1.5;
+                    }
+                }
+            }
+        }
+
+        .product-item {
+            @include col(50%);
+            .product-item-inner {
+                .product-icon {
+                    right: 10px;
+                    .icon {
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+
+        .brand {
+            .brand-item {
+                @include col(50%);
+            }
+        }
+    }
+
+    .footer {
+        .information {
+            .information-item {
+                @include col(50%);
+            }
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    .header {
+        .logo-mobile {
+            display: block;
+            display: flex;
+            justify-content: center;
+        }
+        &-inner {
+            height: 40px;
+            .logo {
+                display: none;
+            }
+        }
+    }
+
+    .slider {
+        height: 700px;
+    }
+
+    .page-main {
+        .strength {
+            &-inner {
+                .strength-item {
+                    width: 50%;
+                }
+            }
+        }
+
+        .product-tab .ui-tabs-nav {
+            li {
+                a {
+                    padding: .5em 0.5em;
+                    font-size: 15px;
+                }
+            }
+         }
+        .product-item {
+            @include col(50%);
+            .product-item-inner {
+                .product-icon {
+                    right: 10px;
+                    .icon {
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+
+        .about-us {
+            margin-top: 25px;  
+        }
+
+        .brand {
+            margin-top: 80px;
+            .brand-item {
+                @include col(50%);
+            }
+        } 
+    }
+}
+
+@media all and (max-width: 576px) {
+    .header {
+        &-inner {
+            .nav-bar {
+                .nav-icon {
+                    display: block;
+                }
+                .menu-total {
+                    display: flex;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    z-index: 100;
+                    width: 100vw;
+                    height: 100vh;
+                    @include transit(all, 0.5s);
+                    @include transformer(translateX(-110%));
+                    .menu {
+                        width: 40%;
+                        display: block;
+                        background-color: $white-backgound-color;
+                        .title {
+                            color: black;
+                            display: block;
+                            font-size: 20px;
+                            font-weight: 700;
+                        }
+                        .menu-item {
+                            border-bottom: 1px solid #bbb;
+                            a {
+                                display: block;
+                                color: black;
+                                font-weight: 400;
+                                padding: 10px 0;
+                            }
+                        }
+                    }
+                    .cover {
+                        display: block;
+                        width: 60%;
+                        height: 100vh;
+                        background-color: black;
+                        opacity: 0.5;
+                    }
+                    }
+                    .menu-active {
+                        
+                        @include transformer(translateX(0));
+                    }
+                }
+ 
+ 
+            }
+        }
+    
+
+    .slider {
+            &-content {
+                &-inner {
+                    .title-top {
+                        font-size: 35px;
+                    }
+                    .title-bottom {
+                        font-size: 25px;
+                    }
+                
+                }
+            }
+    }
+
+    .page-main {
+        .strength {
+            &-inner {
+                .strength-item {
+                    width: 100%;
+                }
+                .icon-item {
+                    padding: 30px 0;
+                }
+            }
+        }
+
+        .product-item {
+            @include col(50%);
+            .product-item-inner {
+                .product-icon {
+                    right: 0px;
+                    .icon {
+                        margin-top: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 375px) {
+    .page-main {
+        .product-item {
+            .product-item-inner {
+                .product-icon {
+                    .icon {
+                        a {
+                            width: 28px;
+                            height: 28px;
+                            line-height: 28px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        .information {
+            .information-item {
+                @include col(100%);
+            }
+        }
+    }
+
+    
+}

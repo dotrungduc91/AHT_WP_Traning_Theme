@@ -1,0 +1,116 @@
+2021-10-09T08:21:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_get_products(), 0 passed in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php on line 377 and exactly 1 expected in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\woocommerce\includes\wc-product-functions.php:29
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php(377): wc_get_products()
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\woocommerce\includes\wc-product-functions.php on line 29
+
+2021-10-09T08:21:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_get_products(), 0 passed in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php on line 381 and exactly 1 expected in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\woocommerce\includes\wc-product-functions.php:29
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php(381): wc_get_products()
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\woocommerce\includes\wc-product-functions.php on line 29
+
+2021-10-09T08:45:18+00:00 CRITICAL Uncaught Error: Call to a member function get_attributes() on null in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php:87
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php on line 87
+
+2021-10-09T08:53:45+00:00 CRITICAL Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php:97
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php(97): number_format('Fitness Gear Pr...', 2, ',', ' ')
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php on line 97
+
+2021-10-09T08:54:40+00:00 CRITICAL Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php:97
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php(97): number_format('Fitness Gear Pr...', 2, '.', ' ')
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php on line 97
+
+2021-10-09T08:56:19+00:00 CRITICAL Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php:89
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php(89): number_format('Fitness Gear Pr...', 2, '.', ' ')
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php on line 89
+
+2021-10-09T08:56:43+00:00 CRITICAL Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php:89
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php(89): number_format('', 2, '.', ' ')
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php on line 89
+
+2021-10-09T08:57:21+00:00 CRITICAL Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php:89
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php(89): number_format('', 2, '.', ' ')
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php on line 89
+
+2021-10-09T08:57:47+00:00 CRITICAL Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php:89
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php(89): number_format('', 2, '.', ' ')
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php on line 89
+
+2021-10-09T08:59:18+00:00 CRITICAL Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php:89
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php(89): number_format('', 2, ',', ' ')
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php on line 89
+
+2021-10-09T08:59:27+00:00 CRITICAL Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php:89
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php(89): number_format('', 2, '.', ' ')
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php on line 89
+
+2021-10-09T08:59:35+00:00 CRITICAL Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php:89
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php(89): number_format('', 2, '.', ' ')
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php on line 89
+
+2021-10-09T09:02:47+00:00 CRITICAL Uncaught TypeError: number_format(): Argument #1 ($num) must be of type float, string given in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php:89
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php(89): number_format('', 2, '.', ' ')
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\theme_gymmax\index.php on line 89
+

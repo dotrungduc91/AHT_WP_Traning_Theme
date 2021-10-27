@@ -1,0 +1,36 @@
+
+// Flexbox
+@mixin flex() {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin appearance($canet) {
+    appearance: $canet;
+    -webkit-appearance: $canet;
+    -moz-appearance: $canet;
+}
+
+@mixin transformer($scale){
+    transform: $scale;
+    -webkit-transform: $scale;
+    -moz-transform: $scale;
+    -ms-transform: $scale;
+    -o-transform: $scale;
+}
+
+@mixin transit($attr, $sec){
+    transition: $attr, $sec;
+    -webkit-transform: $attr, $sec;
+    -moz-transform: $attr, $sec;
+    -ms-transform: $attr, $sec;
+    -o-transform: $attr, $sec;
+}
+
+@mixin col ($width){
+    width: $width;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin: 15px 0;
+}

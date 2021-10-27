@@ -1,0 +1,17 @@
+2021-10-26T11:21:15+00:00 CRITICAL Uncaught Error: Non-static method wpdb::get_results() cannot be called statically in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\idea-pro-example\idea-pro-example.php:166
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php(303): ideapro_form_capture('')
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\general-template.php(3015): do_action('wp_head')
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\twentytwenty\header.php(23): wp_head()
+#5 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\twentytwenty\singular.php(12): get_header()
+#9 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\plugins\idea-pro-example\idea-pro-example.php on line 166
+

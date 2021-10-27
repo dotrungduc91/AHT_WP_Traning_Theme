@@ -1,0 +1,15 @@
+.classes-content {
+    .class-item {
+        @include col(50%);
+        img {
+            width: 100%;
+        }
+    }
+
+
+    .classes-meta {
+        a {
+            font-weight: bold;
+        }    
+    }
+}

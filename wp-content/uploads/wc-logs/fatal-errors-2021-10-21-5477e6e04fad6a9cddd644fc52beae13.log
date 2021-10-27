@@ -1,0 +1,157 @@
+2021-10-21T07:26:40+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme/wp-content/themes/gymmax/inc/helpers/template-tags.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-settings.php(546): include()
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php on line 17
+
+2021-10-21T07:27:23+00:00 CRITICAL Uncaught Error: Class "GYMMAX_THEME\Inc\Classes\GYMMAX_THEME" not found in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php(23): gymmax_get_theme_instance()
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php on line 20
+
+2021-10-21T07:30:13+00:00 CRITICAL Uncaught Error: Class "GYMMAX_THEME\Inc\Classes\GYMMAX_THEME" not found in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php(23): gymmax_get_theme_instance()
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php on line 20
+
+2021-10-21T07:32:15+00:00 CRITICAL Uncaught Error: Class "GYMMAX_THEME\Inc\Classes\GYMMAX_THEME" not found in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php(23): gymmax_get_theme_instance()
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php on line 20
+
+2021-10-21T07:34:35+00:00 CRITICAL Uncaught Error: Class "GYMMAX_THEME\Inc\Classes\GYMMAX_THEME" not found in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php(23): gymmax_get_theme_instance()
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php on line 20
+
+2021-10-21T07:36:17+00:00 CRITICAL Uncaught Error: Class "GYMMAX_THEME\Inc\Classes\GYMMAX_THEME" not found in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php(23): gymmax_get_theme_instance()
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php on line 20
+
+2021-10-21T07:37:00+00:00 CRITICAL Uncaught Error: Class "GYMMAX_THEME\Inc\Classes\GYMMAX_THEME" not found in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php(23): gymmax_get_theme_instance()
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php on line 20
+
+2021-10-21T07:38:18+00:00 CRITICAL Uncaught Error: Class "GYMMAX_THEME\Inc\Classes\GYMMAX_THEME" not found in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php(23): gymmax_get_theme_instance()
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php on line 20
+
+2021-10-21T07:40:18+00:00 CRITICAL Uncaught Error: Class "GYMMAX_THEME\Inc\Classes\GYMMAX_THEME" not found in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php(23): gymmax_get_theme_instance()
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php on line 20
+
+2021-10-21T07:42:19+00:00 CRITICAL Uncaught Error: Class "GYMMAX_THEME\Inc\Classes\GYMMAX_THEME" not found in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php(23): gymmax_get_theme_instance()
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php on line 20
+
+2021-10-21T07:44:21+00:00 CRITICAL Uncaught Error: Class "GYMMAX_THEME\Inc\Classes\GYMMAX_THEME" not found in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php(23): gymmax_get_theme_instance()
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php on line 20
+
+2021-10-21T07:45:52+00:00 CRITICAL Uncaught Error: Class "GYMMAX_THEME\Inc\Classes\GYMMAX_THEME" not found in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php(23): gymmax_get_theme_instance()
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php on line 20
+
+2021-10-21T07:46:22+00:00 CRITICAL Uncaught Error: Class "GYMMAX_THEME\Inc\Classes\GYMMAX_THEME" not found in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php:20
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php(23): gymmax_get_theme_instance()
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-settings.php(546): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-content\themes\gymmax\functions.php on line 20
+
+2021-10-21T07:46:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, class GYMMAX_THEME\Inc\Classes\GYMMAX_THEME does not have a method "setup_theme" in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-settings.php(556): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php on line 303
+
+2021-10-21T07:47:23+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, class GYMMAX_THEME\Inc\Classes\GYMMAX_THEME does not have a method "setup_theme" in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-settings.php(556): do_action('after_setup_the...')
+#3 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\AHT_Training\WordPress\Project_Theme\wp-includes\class-wp-hook.php on line 303
+
